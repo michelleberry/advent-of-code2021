@@ -1,8 +1,3 @@
-from colorama import Fore, Style
-from collections import deque
-from collections import Counter
-import re
-
 def print_paper(grid):
     for row in grid:
         for ch in row:
