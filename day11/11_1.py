@@ -1,7 +1,7 @@
+from colorama import Fore, Style
+
 dirs = [(0,1), (0,-1), (1,0), (-1,0), 
         (1,1), (1, -1), (-1, 1), (-1,-1)]
-
-from colorama import Fore, Style
 
 def print_grid(grid):
     for line in grid:

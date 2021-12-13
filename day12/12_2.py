@@ -1,10 +1,3 @@
-dirs = [(0,1), (0,-1), (1,0), (-1,0), 
-        (1,1), (1, -1), (-1, 1), (-1,-1)]
-
-from colorama import Fore, Style
-from collections import deque
-from collections import Counter
-
 def add_to_graph(graph, a, b):
     if a in graph:
         graph[a].append(b)
